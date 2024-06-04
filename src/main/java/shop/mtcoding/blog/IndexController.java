@@ -10,6 +10,7 @@ public class IndexController {
 
     @GetMapping("/api/check")
     public ResponseEntity<?> check() {
+
         return ResponseEntity.ok(new ApiUtil(null));
     }
 }
